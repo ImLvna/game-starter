@@ -9,7 +9,6 @@ export default function Overlay() {
         const ticker = PIXI.Ticker.shared;
         ticker.add(() => {
             setFps(ticker.FPS.toFixed(0));
-            console.log(ticker.FPS.toFixed(0))
         });
     })
     return (
